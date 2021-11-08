@@ -7,7 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.weather-form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  background-color: azure;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.weather-form label {
+  cursor: pointer;
+}
+
+.weather-form input[type=submit] {
+  display: block;
+  padding: 15px;
+  font-size: 1em;
+  background-color: rgb(189, 189, 189);
 }
